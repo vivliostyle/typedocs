@@ -29,7 +29,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <ul class="tsd-hierarchy">
 <li><a href="../types/vtree.LayoutContext.html" class="tsd-signature-type" data-tsd-kind="Type alias">LayoutContext</a></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L117">vgen.ts:117</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L87">vgen.ts:87</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -75,6 +75,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <a href="vgen.ViewFactory.html#clone" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>clone</span></a>
 <a href="vgen.ViewFactory.html#computeStyle" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>compute<wbr/>Style</span></a>
 <a href="vgen.ViewFactory.html#convertLengthToPx" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>convert<wbr/>Length<wbr/>To<wbr/>Px</span></a>
+<a href="vgen.ViewFactory.html#createChildAnonymousBlockIfNeeded" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>create<wbr/>Child<wbr/>Anonymous<wbr/>Block<wbr/>If<wbr/>Needed</span></a>
 <a href="vgen.ViewFactory.html#createElement" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>create<wbr/>Element</span></a>
 <a href="vgen.ViewFactory.html#createElementView" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>create<wbr/>Element<wbr/>View</span></a>
 <a href="vgen.ViewFactory.html#createNodeView" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>create<wbr/>Node<wbr/>View</span></a>
@@ -84,12 +85,12 @@ goog.events.EventTarget if you are using Closure library.</p>
 <a href="vgen.ViewFactory.html#createTextNodeView" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>create<wbr/>Text<wbr/>Node<wbr/>View</span></a>
 <a href="vgen.ViewFactory.html#dispatchEvent" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>dispatch<wbr/>Event</span></a>
 <a href="vgen.ViewFactory.html#findAndProcessRepeatingElements" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>find<wbr/>And<wbr/>Process<wbr/>Repeating<wbr/>Elements</span></a>
+<a href="vgen.ViewFactory.html#fixClonedBoxDecorationOverflow" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>fix<wbr/>Cloned<wbr/>Box<wbr/>Decoration<wbr/>Overflow</span></a>
 <a href="vgen.ViewFactory.html#fixRubyTextFontSize" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>fix<wbr/>Ruby<wbr/>Text<wbr/>Font<wbr/>Size</span></a>
 <a href="vgen.ViewFactory.html#getPseudoMap" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>get<wbr/>Pseudo<wbr/>Map</span></a>
 <a href="vgen.ViewFactory.html#inheritFromSourceParent" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>inherit<wbr/>From<wbr/>Source<wbr/>Parent</span></a>
 <a href="vgen.ViewFactory.html#inheritLangAttribute" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>inherit<wbr/>Lang<wbr/>Attribute</span></a>
 <a href="vgen.ViewFactory.html#isAtForcedBreak" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>is<wbr/>At<wbr/>Forced<wbr/>Break</span></a>
-<a href="vgen.ViewFactory.html#isParagraph" class="tsd-index-link tsd-kind-method tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>is<wbr/>Paragraph</span></a>
 <a href="vgen.ViewFactory.html#isPseudoelement" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>is<wbr/>Pseudoelement</span></a>
 <a href="vgen.ViewFactory.html#isSVGUrlAttribute" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>isSVGUrl<wbr/>Attribute</span></a>
 <a href="vgen.ViewFactory.html#isSameNodePosition" class="tsd-index-link tsd-kind-method tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>is<wbr/>Same<wbr/>Node<wbr/>Position</span></a>
@@ -154,39 +155,39 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h4 class="tsd-returns-title">Returns <a href="vgen.ViewFactory.html" class="tsd-signature-type" data-tsd-kind="Class">ViewFactory</a></h4><aside class="tsd-sources">
 <p>Overrides <a href="base.SimpleEventTarget.html">SimpleEventTarget</a>.<a href="base.SimpleEventTarget.html#constructor">constructor</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L148">vgen.ts:148</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L118">vgen.ts:118</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="context" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>context</span><a href="#context" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">context<span class="tsd-signature-symbol">:</span> <a href="exprs.Context.html" class="tsd-signature-type" data-tsd-kind="Class">Context</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L150">vgen.ts:150</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L120">vgen.ts:120</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="customRenderer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>custom<wbr/>Renderer</span><a href="#customRenderer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">custom<wbr/>Renderer<span class="tsd-signature-symbol">:</span> <a href="../types/vgen.CustomRenderer.html" class="tsd-signature-type" data-tsd-kind="Type alias">CustomRenderer</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L159">vgen.ts:159</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L129">vgen.ts:129</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="docFaces" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>doc<wbr/>Faces</span><a href="#docFaces" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">doc<wbr/>Faces<span class="tsd-signature-symbol">:</span> <a href="font.DocumentFaces.html" class="tsd-signature-type" data-tsd-kind="Class">DocumentFaces</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L155">vgen.ts:155</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L125">vgen.ts:125</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="document" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>document</span><a href="#document" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">document<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Document</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L134">vgen.ts:134</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L104">vgen.ts:104</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="documentURLTransformer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>documentURLTransformer</span><a href="#documentURLTransformer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">documentURLTransformer<span class="tsd-signature-symbol">:</span> <a href="../interfaces/base.DocumentURLTransformer.html" class="tsd-signature-type" data-tsd-kind="Interface">DocumentURLTransformer</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L161">vgen.ts:161</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L131">vgen.ts:131</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="exprContentListener" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>expr<wbr/>Content<wbr/>Listener</span><a href="#exprContentListener" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">expr<wbr/>Content<wbr/>Listener<span class="tsd-signature-symbol">:</span> <a href="../modules/types.Vtree.html" class="tsd-signature-type" data-tsd-kind="Namespace">Vtree</a><span class="tsd-signature-symbol">.</span><a href="../types/types.Vtree.ExprContentListener.html" class="tsd-signature-type" data-tsd-kind="Type alias">ExprContentListener</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L135">vgen.ts:135</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L105">vgen.ts:105</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="fallbackMap" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>fallback<wbr/>Map</span><a href="#fallbackMap" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">fallback<wbr/>Map<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span><br/><span>    </span>[key: <span class="tsd-signature-type">string</span>]<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span></div>
@@ -196,22 +197,22 @@ goog.events.EventTarget if you are using Closure library.</p>
 <li class="tsd-parameter-index-signature">
 <h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">string</span></h5></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L160">vgen.ts:160</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L130">vgen.ts:130</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="flowName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>flow<wbr/>Name</span><a href="#flowName" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">flow<wbr/>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L149">vgen.ts:149</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L119">vgen.ts:119</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="footnoteStyle" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>footnote<wbr/>Style</span><a href="#footnoteStyle" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">footnote<wbr/>Style<span class="tsd-signature-symbol">:</span> <a href="../types/css_cascade.ElementStyle.html" class="tsd-signature-type" data-tsd-kind="Type alias">ElementStyle</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L156">vgen.ts:156</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L126">vgen.ts:126</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="isFootnote" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Footnote</span><a href="#isFootnote" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">is<wbr/>Footnote<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L140">vgen.ts:140</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L110">vgen.ts:110</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a id="listeners" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>listeners</span><a href="#listeners" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">listeners<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span><br/><span>    </span>[key: <span class="tsd-signature-type">string</span>]<span class="tsd-signature-symbol">: </span><a href="../types/base.EventListener.html" class="tsd-signature-type" data-tsd-kind="Type alias">EventListener</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span><br/><span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol"> = {}</span></div>
@@ -222,67 +223,67 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="../types/base.EventListener.html" class="tsd-signature-type" data-tsd-kind="Type alias">EventListener</a><span class="tsd-signature-symbol">[]</span></h5></li></ul></div><aside class="tsd-sources">
 <p>Inherited from <a href="base.SimpleEventTarget.html">SimpleEventTarget</a>.<a href="base.SimpleEventTarget.html#listeners">listeners</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/base.ts#L703">base.ts:703</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/base.ts#L703">base.ts:703</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="nodeContext" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>node<wbr/>Context</span><a href="#nodeContext" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">node<wbr/>Context<span class="tsd-signature-symbol">:</span> <a href="vtree.NodeContext.html" class="tsd-signature-type" data-tsd-kind="Class">NodeContext</a><span class="tsd-signature-symbol"> = null</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L138">vgen.ts:138</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L108">vgen.ts:108</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="offsetInNode" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>offset<wbr/>In<wbr/>Node</span><a href="#offsetInNode" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">offset<wbr/>In<wbr/>Node<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L142">vgen.ts:142</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L112">vgen.ts:112</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="page" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>page</span><a href="#page" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">page<span class="tsd-signature-symbol">:</span> <a href="vtree.Page.html" class="tsd-signature-type" data-tsd-kind="Class">Page</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L158">vgen.ts:158</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L128">vgen.ts:128</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="regionIds" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>region<wbr/>Ids</span><a href="#regionIds" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">region<wbr/>Ids<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L153">vgen.ts:153</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L123">vgen.ts:123</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="sourceNode" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>source<wbr/>Node</span><a href="#sourceNode" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">source<wbr/>Node<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol"> = null</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L141">vgen.ts:141</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L111">vgen.ts:111</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="styler" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>styler</span><a href="#styler" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">styler<span class="tsd-signature-symbol">:</span> <a href="css_styler.Styler.html" class="tsd-signature-type" data-tsd-kind="Class">Styler</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L152">vgen.ts:152</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L122">vgen.ts:122</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="stylerProducer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>styler<wbr/>Producer</span><a href="#stylerProducer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">styler<wbr/>Producer<span class="tsd-signature-symbol">:</span> <a href="../interfaces/vgen.StylerProducer.html" class="tsd-signature-type" data-tsd-kind="Interface">StylerProducer</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L157">vgen.ts:157</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L127">vgen.ts:127</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="viewNode" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>view<wbr/>Node</span><a href="#viewNode" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">view<wbr/>Node<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Node</span><span class="tsd-signature-symbol"> = null</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L146">vgen.ts:146</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L116">vgen.ts:116</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="viewRoot" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>view<wbr/>Root</span><a href="#viewRoot" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">view<wbr/>Root<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Element</span><span class="tsd-signature-symbol"> = null</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L139">vgen.ts:139</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L109">vgen.ts:109</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="viewport" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>viewport</span><a href="#viewport" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">viewport<span class="tsd-signature-symbol">:</span> <a href="vgen.Viewport.html" class="tsd-signature-type" data-tsd-kind="Class">Viewport</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L151">vgen.ts:151</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L121">vgen.ts:121</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="xmldoc" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>xmldoc</span><a href="#xmldoc" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">xmldoc<span class="tsd-signature-symbol">:</span> <a href="../modules/types.XmlDoc.html" class="tsd-signature-type" data-tsd-kind="Namespace">XmlDoc</a><span class="tsd-signature-symbol">.</span><a href="../interfaces/types.XmlDoc.XMLDocHolder.html" class="tsd-signature-type" data-tsd-kind="Interface">XMLDocHolder</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L154">vgen.ts:154</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L124">vgen.ts:124</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private"><a id="SVG_URL_ATTRIBUTES" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagPrivate">Private</code> <span>SVG_<wbr/>URL_<wbr/>ATTRIBUTES</span><a href="#SVG_URL_ATTRIBUTES" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">SVG_<wbr/>URL_<wbr/>ATTRIBUTES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = ...</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L121">vgen.ts:121</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L91">vgen.ts:91</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a id="addEventListener" class="tsd-anchor"></a>
@@ -303,7 +304,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <p>Implementation of Vtree.LayoutContext.addEventListener</p>
 <p>Inherited from <a href="base.SimpleEventTarget.html">SimpleEventTarget</a>.<a href="base.SimpleEventTarget.html#addEventListener">addEventListener</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/base.ts#L716">base.ts:716</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/base.ts#L716">base.ts:716</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="addImageFetchers" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>add<wbr/>Image<wbr/>Fetchers</span><a href="#addImageFetchers" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -316,7 +317,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>bg: <a href="css.Val.html" class="tsd-signature-type" data-tsd-kind="Class">Val</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2042">vgen.ts:2042</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1952">vgen.ts:1952</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="applyComputedStyles" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>apply<wbr/>Computed<wbr/>Styles</span><a href="#applyComputedStyles" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -334,7 +335,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="css.Val.html" class="tsd-signature-type" data-tsd-kind="Class">Val</a></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2054">vgen.ts:2054</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1964">vgen.ts:1964</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="applyFootnoteStyle" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>apply<wbr/>Footnote<wbr/>Style</span><a href="#applyFootnoteStyle" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -352,7 +353,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.applyFootnoteStyle</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2279">vgen.ts:2279</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2189">vgen.ts:2189</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="applyPseudoelementStyle" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>apply<wbr/>Pseudoelement<wbr/>Style</span><a href="#applyPseudoelementStyle" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -370,7 +371,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.applyPseudoelementStyle</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2168">vgen.ts:2168</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2078">vgen.ts:2078</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="clone" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>clone</span><a href="#clone" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -379,7 +380,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h4 class="tsd-returns-title">Returns <a href="../modules/types.Vtree.html" class="tsd-signature-type" data-tsd-kind="Namespace">Vtree</a><span class="tsd-signature-symbol">.</span><a href="../interfaces/types.Vtree.LayoutContext.html" class="tsd-signature-type" data-tsd-kind="Interface">LayoutContext</a></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.clone</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L169">vgen.ts:169</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L139">vgen.ts:139</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="computeStyle" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>compute<wbr/>Style</span><a href="#computeStyle" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -404,7 +405,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="css.Val.html" class="tsd-signature-type" data-tsd-kind="Class">Val</a></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L456">vgen.ts:456</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L426">vgen.ts:426</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="convertLengthToPx" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>convert<wbr/>Length<wbr/>To<wbr/>Px</span><a href="#convertLengthToPx" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -422,7 +423,20 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><a href="css.Numeric.html" class="tsd-signature-type" data-tsd-kind="Class">Numeric</a></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.convertLengthToPx</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2331">vgen.ts:2331</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2428">vgen.ts:2428</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="createChildAnonymousBlockIfNeeded" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>create<wbr/>Child<wbr/>Anonymous<wbr/>Block<wbr/>If<wbr/>Needed</span><a href="#createChildAnonymousBlockIfNeeded" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+<li class="tsd-signature tsd-anchor-link" id="createChildAnonymousBlockIfNeeded.createChildAnonymousBlockIfNeeded-1">create<wbr/>Child<wbr/>Anonymous<wbr/>Block<wbr/>If<wbr/>Needed<span class="tsd-signature-symbol">(</span>elem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><a href="#createChildAnonymousBlockIfNeeded.createChildAnonymousBlockIfNeeded-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>elem: <span class="tsd-signature-type">HTMLElement</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">HTMLElement</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2315">vgen.ts:2315</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createElement" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Element</span><a href="#createElement" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -437,7 +451,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>tag: <span class="tsd-signature-type">string</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Element</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2271">vgen.ts:2271</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2181">vgen.ts:2181</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="createElementView" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>create<wbr/>Element<wbr/>View</span><a href="#createElementView" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -455,7 +469,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>atUnforcedBreak: <span class="tsd-signature-type">boolean</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L674">vgen.ts:674</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L644">vgen.ts:644</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createNodeView" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Node<wbr/>View</span><a href="#createNodeView" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -473,7 +487,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>atUnforcedBreak: <span class="tsd-signature-type">boolean</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1825">vgen.ts:1825</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1724">vgen.ts:1724</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createPseudoelementShadow" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Pseudoelement<wbr/>Shadow</span><a href="#createPseudoelementShadow" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -503,7 +517,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>subShadow: <a href="vtree.ShadowContext.html" class="tsd-signature-type" data-tsd-kind="Class">ShadowContext</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="vtree.ShadowContext.html" class="tsd-signature-type" data-tsd-kind="Class">ShadowContext</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L187">vgen.ts:187</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L157">vgen.ts:157</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createRefShadow" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Ref<wbr/>Shadow</span><a href="#createRefShadow" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -524,7 +538,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>subShadow: <a href="vtree.ShadowContext.html" class="tsd-signature-type" data-tsd-kind="Class">ShadowContext</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><a href="vtree.ShadowContext.html" class="tsd-signature-type" data-tsd-kind="Class">ShadowContext</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L322">vgen.ts:322</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L292">vgen.ts:292</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="createShadows" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>create<wbr/>Shadows</span><a href="#createShadows" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -552,7 +566,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>shadowContext: <a href="vtree.ShadowContext.html" class="tsd-signature-type" data-tsd-kind="Class">ShadowContext</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><a href="vtree.ShadowContext.html" class="tsd-signature-type" data-tsd-kind="Class">ShadowContext</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L353">vgen.ts:353</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L323">vgen.ts:323</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="createTextNodeView" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>create<wbr/>Text<wbr/>Node<wbr/>View</span><a href="#createTextNodeView" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -560,7 +574,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1776">vgen.ts:1776</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1675">vgen.ts:1675</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a id="dispatchEvent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>dispatch<wbr/>Event</span><a href="#dispatchEvent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
@@ -575,7 +589,7 @@ goog.events.EventTarget if you are using Closure library.</p>
 <p>Implementation of Vtree.LayoutContext.dispatchEvent</p>
 <p>Inherited from <a href="base.SimpleEventTarget.html">SimpleEventTarget</a>.<a href="base.SimpleEventTarget.html#dispatchEvent">dispatchEvent</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/base.ts#L705">base.ts:705</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/base.ts#L705">base.ts:705</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="findAndProcessRepeatingElements" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>find<wbr/>And<wbr/>Process<wbr/>Repeating<wbr/>Elements</span><a href="#findAndProcessRepeatingElements" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -590,7 +604,20 @@ goog.events.EventTarget if you are using Closure library.</p>
 <h5>styler: <a href="../interfaces/css_styler.AbstractStyler.html" class="tsd-signature-type" data-tsd-kind="Interface">AbstractStyler</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1708">vgen.ts:1708</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1607">vgen.ts:1607</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="fixClonedBoxDecorationOverflow" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>fix<wbr/>Cloned<wbr/>Box<wbr/>Decoration<wbr/>Overflow</span><a href="#fixClonedBoxDecorationOverflow" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+<li class="tsd-signature tsd-anchor-link" id="fixClonedBoxDecorationOverflow.fixClonedBoxDecorationOverflow-1">fix<wbr/>Cloned<wbr/>Box<wbr/>Decoration<wbr/>Overflow<span class="tsd-signature-symbol">(</span>elem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#fixClonedBoxDecorationOverflow.fixClonedBoxDecorationOverflow-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>elem: <span class="tsd-signature-type">HTMLElement</span></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2305">vgen.ts:2305</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="fixRubyTextFontSize" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>fix<wbr/>Ruby<wbr/>Text<wbr/>Font<wbr/>Size</span><a href="#fixRubyTextFontSize" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -614,7 +641,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2131">vgen.ts:2131</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2041">vgen.ts:2041</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="getPseudoMap" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Pseudo<wbr/>Map</span><a href="#getPseudoMap" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -635,7 +662,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>context: <a href="exprs.Context.html" class="tsd-signature-type" data-tsd-kind="Class">Context</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../types/css_cascade.ElementStyleMap.html" class="tsd-signature-type" data-tsd-kind="Type alias">ElementStyleMap</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L279">vgen.ts:279</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L249">vgen.ts:249</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="inheritFromSourceParent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>inherit<wbr/>From<wbr/>Source<wbr/>Parent</span><a href="#inheritFromSourceParent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -653,7 +680,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <li class="tsd-parameter">
 <h5>lang<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5></li></ul><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L503">vgen.ts:503</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L473">vgen.ts:473</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="inheritLangAttribute" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>inherit<wbr/>Lang<wbr/>Attribute</span><a href="#inheritLangAttribute" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -661,7 +688,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L592">vgen.ts:592</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L562">vgen.ts:562</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="isAtForcedBreak" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>is<wbr/>At<wbr/>Forced<wbr/>Break</span><a href="#isAtForcedBreak" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -672,20 +699,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1498">vgen.ts:1498</a></li></ul></aside></li></ul></section>
-<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="isParagraph" class="tsd-anchor"></a>
-<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>is<wbr/>Paragraph</span><a href="#isParagraph" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-<li class="tsd-signature tsd-anchor-link" id="isParagraph.isParagraph-1">is<wbr/>Paragraph<span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Element</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><a href="#isParagraph.isParagraph-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
-<li class="tsd-description">
-<div class="tsd-parameters">
-<h4 class="tsd-parameters-title">Parameters</h4>
-<ul class="tsd-parameter-list">
-<li>
-<h5>element: <span class="tsd-signature-type">Element</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
-<ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1433">vgen.ts:1433</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1397">vgen.ts:1397</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="isPseudoelement" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Pseudoelement</span><a href="#isPseudoelement" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -698,7 +712,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>elem: <span class="tsd-signature-type">any</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2408">vgen.ts:2408</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2505">vgen.ts:2505</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="isSVGUrlAttribute" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>isSVGUrl<wbr/>Attribute</span><a href="#isSVGUrlAttribute" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -711,7 +725,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>attributeName: <span class="tsd-signature-type">string</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1552">vgen.ts:1552</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1451">vgen.ts:1451</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="isSameNodePosition" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Same<wbr/>Node<wbr/>Position</span><a href="#isSameNodePosition" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -727,7 +741,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.isSameNodePosition</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2393">vgen.ts:2393</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2490">vgen.ts:2490</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="isSameNodePositionStep" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Same<wbr/>Node<wbr/>Position<wbr/>Step</span><a href="#isSameNodePositionStep" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -744,7 +758,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>step2: <a href="../modules/types.Vtree.html" class="tsd-signature-type" data-tsd-kind="Namespace">Vtree</a><span class="tsd-signature-symbol">.</span><a href="../types/types.Vtree.NodePositionStep.html" class="tsd-signature-type" data-tsd-kind="Type alias">NodePositionStep</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2366">vgen.ts:2366</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2463">vgen.ts:2463</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="isTransclusion" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Transclusion</span><a href="#isTransclusion" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -761,7 +775,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>transclusionType: <span class="tsd-signature-type">string</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2000">vgen.ts:2000</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1910">vgen.ts:1910</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="modifyElemDimensionWithImageResolution" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>modify<wbr/>Elem<wbr/>Dimension<wbr/>With<wbr/>Image<wbr/>Resolution</span><a href="#modifyElemDimensionWithImageResolution" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -783,7 +797,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>isVertical: <span class="tsd-signature-type">boolean</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1556">vgen.ts:1556</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1455">vgen.ts:1455</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="nextInTree" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>next<wbr/>In<wbr/>Tree</span><a href="#nextInTree" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -799,7 +813,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><a href="vtree.NodeContext.html" class="tsd-signature-type" data-tsd-kind="Class">NodeContext</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.nextInTree</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2017">vgen.ts:2017</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1927">vgen.ts:1927</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="nextPositionInTree" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>next<wbr/>Position<wbr/>In<wbr/>Tree</span><a href="#nextPositionInTree" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -812,7 +826,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>pos: <a href="vtree.NodeContext.html" class="tsd-signature-type" data-tsd-kind="Class">NodeContext</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="vtree.NodeContext.html" class="tsd-signature-type" data-tsd-kind="Class">NodeContext</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1928">vgen.ts:1928</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1838">vgen.ts:1838</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="peelOff" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>peel<wbr/>Off</span><a href="#peelOff" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -828,7 +842,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><a href="vtree.NodeContext.html" class="tsd-signature-type" data-tsd-kind="Class">NodeContext</a><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.peelOff</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2212">vgen.ts:2212</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2122">vgen.ts:2122</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="preprocessElementStyle" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>preprocess<wbr/>Element<wbr/>Style</span><a href="#preprocessElementStyle" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -844,7 +858,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="css.Val.html" class="tsd-signature-type" data-tsd-kind="Class">Val</a></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1699">vgen.ts:1699</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1598">vgen.ts:1598</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="preprocessTextContent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>preprocess<wbr/>Text<wbr/>Content</span><a href="#preprocessTextContent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -852,7 +866,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1789">vgen.ts:1789</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1688">vgen.ts:1688</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="processAfterIfcontinues" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>process<wbr/>After<wbr/>Ifcontinues</span><a href="#processAfterIfcontinues" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -871,7 +885,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>context: <a href="exprs.Context.html" class="tsd-signature-type" data-tsd-kind="Class">Context</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1518">vgen.ts:1518</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1417">vgen.ts:1417</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="processFragmentedBlockEdge" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>process<wbr/>Fragmented<wbr/>Block<wbr/>Edge</span><a href="#processFragmentedBlockEdge" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -885,7 +899,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.processFragmentedBlockEdge</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L2307">vgen.ts:2307</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L2217">vgen.ts:2217</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private"><a id="processRepeatOnBreak" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>process<wbr/>Repeat<wbr/>On<wbr/>Break</span><a href="#processRepeatOnBreak" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -901,7 +915,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="css.Val.html" class="tsd-signature-type" data-tsd-kind="Class">Val</a></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1754">vgen.ts:1754</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1653">vgen.ts:1653</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="processShadowContent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>process<wbr/>Shadow<wbr/>Content</span><a href="#processShadowContent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -914,7 +928,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>pos: <a href="vtree.NodeContext.html" class="tsd-signature-type" data-tsd-kind="Class">NodeContext</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="vtree.NodeContext.html" class="tsd-signature-type" data-tsd-kind="Class">NodeContext</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1879">vgen.ts:1879</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1789">vgen.ts:1789</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a id="removeEventListener" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>remove<wbr/>Event<wbr/>Listener</span><a href="#removeEventListener" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
@@ -933,7 +947,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <p>Implementation of Vtree.LayoutContext.removeEventListener</p>
 <p>Inherited from <a href="base.SimpleEventTarget.html">SimpleEventTarget</a>.<a href="base.SimpleEventTarget.html#removeEventListener">removeEventListener</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/base.ts#L732">base.ts:732</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/base.ts#L732">base.ts:732</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="resolveFormattingContext" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>resolve<wbr/>Formatting<wbr/>Context</span><a href="#resolveFormattingContext" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -956,7 +970,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>isRoot: <span class="tsd-signature-type">boolean</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L644">vgen.ts:644</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L614">vgen.ts:614</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="resolveURL" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>resolveURL</span><a href="#resolveURL" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -969,7 +983,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5>url: <span class="tsd-signature-type">string</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L587">vgen.ts:587</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L557">vgen.ts:557</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="setCurrent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Current</span><a href="#setCurrent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -987,7 +1001,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/task.Result.html" class="tsd-signature-type" data-tsd-kind="Interface">Result</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.setCurrent</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L1859">vgen.ts:1859</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L1769">vgen.ts:1769</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="setViewRoot" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>View<wbr/>Root</span><a href="#setViewRoot" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -1003,7 +1017,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Implementation of Vtree.LayoutContext.setViewRoot</p>
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L448">vgen.ts:448</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L418">vgen.ts:418</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="transferPolyfilledInheritedProps" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>transfer<wbr/>Polyfilled<wbr/>Inherited<wbr/>Props</span><a href="#transferPolyfilledInheritedProps" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -1019,7 +1033,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="css.Val.html" class="tsd-signature-type" data-tsd-kind="Class">Val</a></h5></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/6dd04d07f/packages/core/src/vivliostyle/vgen.ts#L599">vgen.ts:599</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/39cdc684a/packages/core/src/vivliostyle/vgen.ts#L569">vgen.ts:569</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -1149,6 +1163,7 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#clone" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>clone</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#computeStyle" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>compute<wbr/>Style</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#convertLengthToPx" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>convert<wbr/>Length<wbr/>To<wbr/>Px</a></li>
+<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#createChildAnonymousBlockIfNeeded" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>create<wbr/>Child<wbr/>Anonymous<wbr/>Block<wbr/>If<wbr/>Needed</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#createElement" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>create<wbr/>Element</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#createElementView" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>create<wbr/>Element<wbr/>View</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#createNodeView" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>create<wbr/>Node<wbr/>View</a></li>
@@ -1158,12 +1173,12 @@ Issue #673: Minimum font size setting in Chrome causes ruby font size problem</p
 <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#createTextNodeView" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>create<wbr/>Text<wbr/>Node<wbr/>View</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="vgen.ViewFactory.html#dispatchEvent" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>dispatch<wbr/>Event</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#findAndProcessRepeatingElements" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>find<wbr/>And<wbr/>Process<wbr/>Repeating<wbr/>Elements</a></li>
+<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#fixClonedBoxDecorationOverflow" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>fix<wbr/>Cloned<wbr/>Box<wbr/>Decoration<wbr/>Overflow</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#fixRubyTextFontSize" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>fix<wbr/>Ruby<wbr/>Text<wbr/>Font<wbr/>Size</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#getPseudoMap" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>get<wbr/>Pseudo<wbr/>Map</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#inheritFromSourceParent" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>inherit<wbr/>From<wbr/>Source<wbr/>Parent</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#inheritLangAttribute" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>inherit<wbr/>Lang<wbr/>Attribute</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#isAtForcedBreak" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>is<wbr/>At<wbr/>Forced<wbr/>Break</a></li>
-<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="vgen.ViewFactory.html#isParagraph" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>is<wbr/>Paragraph</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#isPseudoelement" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>is<wbr/>Pseudoelement</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#isSVGUrlAttribute" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>isSVGUrl<wbr/>Attribute</a></li>
 <li class="tsd-kind-method tsd-parent-kind-class"><a href="vgen.ViewFactory.html#isSameNodePosition" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg>is<wbr/>Same<wbr/>Node<wbr/>Position</a></li>
