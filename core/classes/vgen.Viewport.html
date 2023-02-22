@@ -19,7 +19,7 @@
 <ul class="tsd-hierarchy">
 <li><span class="target">Viewport</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2737">vgen.ts:2737</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2845">vgen.ts:2845</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -37,6 +37,7 @@
 <a href="vgen.Viewport.html#height" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>height</span></a>
 <a href="vgen.Viewport.html#layoutBox" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>layout<wbr/>Box</span></a>
 <a href="vgen.Viewport.html#outerZoomBox" class="tsd-index-link tsd-kind-property tsd-parent-kind-class tsd-is-private"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>outer<wbr/>Zoom<wbr/>Box</span></a>
+<a href="vgen.Viewport.html#pixelRatio" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>pixel<wbr/>Ratio</span></a>
 <a href="vgen.Viewport.html#root" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>root</span></a>
 <a href="vgen.Viewport.html#width" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>width</span></a>
 <a href="vgen.Viewport.html#window" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>window</span></a>
@@ -52,7 +53,7 @@
 <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class"><a id="constructor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="constructor.new_Viewport">new <wbr/>Viewport<span class="tsd-signature-symbol">(</span>window<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Window</span>, fontSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, opt_root<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">HTMLElement</span>, opt_width<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, opt_height<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="vgen.Viewport.html" class="tsd-signature-type" data-tsd-kind="Class">Viewport</a><a href="#constructor.new_Viewport" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="constructor.new_Viewport">new <wbr/>Viewport<span class="tsd-signature-symbol">(</span>window<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Window</span>, fontSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pixelRatio<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, opt_root<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">HTMLElement</span>, opt_width<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, opt_height<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="vgen.Viewport.html" class="tsd-signature-type" data-tsd-kind="Class">Viewport</a><a href="#constructor.new_Viewport" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
@@ -62,6 +63,8 @@
 <li>
 <h5>fontSize: <span class="tsd-signature-type">number</span></h5></li>
 <li>
+<h5>pixelRatio: <span class="tsd-signature-type">number</span></h5></li>
+<li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> opt_root: <span class="tsd-signature-type">HTMLElement</span></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> opt_width: <span class="tsd-signature-type">number</span></h5></li>
@@ -69,54 +72,59 @@
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> opt_height: <span class="tsd-signature-type">number</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="vgen.Viewport.html" class="tsd-signature-type" data-tsd-kind="Class">Viewport</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2746">vgen.ts:2746</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2854">vgen.ts:2854</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="contentContainer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>content<wbr/>Container</span><a href="#contentContainer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">content<wbr/>Container<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2741">vgen.ts:2741</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2849">vgen.ts:2849</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="document" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>document</span><a href="#document" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">document<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Document</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2738">vgen.ts:2738</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2846">vgen.ts:2846</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="fontSize" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>font<wbr/>Size</span><a href="#fontSize" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">font<wbr/>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2748">vgen.ts:2748</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2856">vgen.ts:2856</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="height" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>height</span><a href="#height" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2744">vgen.ts:2744</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2852">vgen.ts:2852</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="layoutBox" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>layout<wbr/>Box</span><a href="#layoutBox" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">layout<wbr/>Box<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Element</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2742">vgen.ts:2742</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2850">vgen.ts:2850</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private"><a id="outerZoomBox" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagPrivate">Private</code> <span>outer<wbr/>Zoom<wbr/>Box</span><a href="#outerZoomBox" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">outer<wbr/>Zoom<wbr/>Box<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2740">vgen.ts:2740</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2848">vgen.ts:2848</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="pixelRatio" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>pixel<wbr/>Ratio</span><a href="#pixelRatio" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">pixel<wbr/>Ratio<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2857">vgen.ts:2857</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="root" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>root</span><a href="#root" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">root<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2739">vgen.ts:2739</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2847">vgen.ts:2847</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="width" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>width</span><a href="#width" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2743">vgen.ts:2743</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2851">vgen.ts:2851</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="window" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>window</span><a href="#window" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">window<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Window</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2747">vgen.ts:2747</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2855">vgen.ts:2855</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="clear" class="tsd-anchor"></a>
@@ -128,7 +136,7 @@
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2839">vgen.ts:2839</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2958">vgen.ts:2958</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="resetZoom" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>reset<wbr/>Zoom</span><a href="#resetZoom" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -138,7 +146,7 @@
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2810">vgen.ts:2810</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2933">vgen.ts:2933</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class"><a id="zoom" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>zoom</span><a href="#zoom" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -163,7 +171,7 @@
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/cd3101d98/packages/core/src/vivliostyle/vgen.ts#L2824">vgen.ts:2824</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/bfe0f9f8a/packages/core/src/vivliostyle/vgen.ts#L2947">vgen.ts:2947</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -268,6 +276,7 @@
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="vgen.Viewport.html#height" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>height</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="vgen.Viewport.html#layoutBox" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>layout<wbr/>Box</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="vgen.Viewport.html#outerZoomBox" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>outer<wbr/>Zoom<wbr/>Box</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class"><a href="vgen.Viewport.html#pixelRatio" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>pixel<wbr/>Ratio</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="vgen.Viewport.html#root" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>root</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="vgen.Viewport.html#width" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>width</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="vgen.Viewport.html#window" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>window</a></li>
