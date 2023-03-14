@@ -1,0 +1,127 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>UserAgentTocCss | @vivliostyle/core</title><meta name="description" content="Documentation for @vivliostyle/core"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script async src="../assets/search.js" id="search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container">
+<div class="table-cell" id="tsd-search" data-base="..">
+<div class="field"><label for="tsd-search-field" class="tsd-widget search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
+<ul class="results">
+<li class="state loading">Preparing search index...</li>
+<li class="state failure">The search index is not available</li></ul><a href="../index.html" class="title">@vivliostyle/core</a></div>
+<div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
+<div class="container container-main">
+<div class="col-8 col-content">
+<div class="tsd-page-title">
+<ul class="tsd-breadcrumb">
+<li><a href="../modules.html">@vivliostyle/core</a></li>
+<li><a href="../modules/assets.html">assets</a></li>
+<li><a href="assets.UserAgentTocCss.html">UserAgentTocCss</a></li></ul>
+<h1>Variable UserAgentTocCss<code class="tsd-tag ts-flagConst">Const</code> </h1></div>
+<div class="tsd-signature">User<wbr/>Agent<wbr/>Toc<wbr/>Css<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;\n@namespace ncx \&quot;http://www.daisy.org/z3986/2005/ncx/\&quot;;\n\nncx|ncx {\n  display: block;\n  padding-top: 10px;\n  padding-bottom: 10px;\n}\n\nncx|content {\n  display: none;\n}\n\nbody &gt; * {\n  -adapt-behavior: body-child;\n}\n\n[role=\&quot;doc-toc\&quot;],\n[role=\&quot;directory\&quot;],\nnav,\n.toc,\n#toc,\nsection:has(&gt;:first-child:is(h1,h2,h3,h4,h5,h6):is(.toc,#toc)),\n#table-of-contents,\n#contents {\n  -adapt-behavior: toc-root;\n}\n\n[role=\&quot;doc-toc\&quot;] a,\n[role=\&quot;directory\&quot;] a,\nnav a,\n.toc a,\n#toc a,\nsection:has(&gt;:first-child:is(h1,h2,h3,h4,h5,h6):is(.toc,#toc)) a,\nncx|navLabel {\n  -adapt-behavior: toc-node-anchor;\n}\n\n[role=\&quot;doc-toc\&quot;] li,\n[role=\&quot;directory\&quot;] li,\nnav li,\n.toc li,\n#toc li,\nsection:has(&gt;:first-child:is(h1,h2,h3,h4,h5,h6):is(.toc,#toc)) li,\nncx|navPoint {\n  -adapt-behavior: toc-node;\n}\n\n[role=\&quot;doc-toc\&quot;] li &gt; *:first-child,\n[role=\&quot;directory\&quot;] li &gt; *:first-child,\nnav li &gt; *:first-child,\n.toc li &gt; *:first-child,\n#toc li &gt; *:first-child,\nsection:has(&gt;:first-child:is(h1,h2,h3,h4,h5,h6):is(.toc,#toc)) li &gt; *:first-child {\n  -adapt-behavior: toc-node-first-child;\n}\n\n[role=\&quot;doc-toc\&quot;] ol,\n[role=\&quot;directory\&quot;] ol,\nnav ol,\n.toc ol,\n#toc ol,\n[role=\&quot;doc-toc\&quot;] ul,\n[role=\&quot;directory\&quot;] ul,\nnav ul,\n.toc ul,\n#toc ul,\nol[role=\&quot;doc-toc\&quot;],\nol[role=\&quot;directory\&quot;],\nol.toc,\nol#toc,\nul[role=\&quot;doc-toc\&quot;],\nul[role=\&quot;directory\&quot;],\nul.toc,\nul#toc,\nsection:has(&gt;:first-child:is(h1,h2,h3,h4,h5,h6):is(.toc,#toc)) :is(ol,ul) {\n  -adapt-behavior: toc-container;\n}\n&quot;</span><span class="tsd-signature-symbol"> = ...</span></div>
+<div class="tsd-comment tsd-typography"><p>user-agent-toc.css</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/vivliostyle/vivliostyle.js/blob/135559721/packages/core/src/vivliostyle/assets.ts#L1372">assets.ts:1372</a></li></ul></aside></div>
+<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+<div class="tsd-navigation settings">
+<details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg> Settings</h3></summary>
+<div class="tsd-accordion-details">
+<div class="tsd-filter-visibility">
+<h4 class="uppercase">Member Visibility</h4><form>
+<ul id="tsd-filter-options">
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-private" name="private"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Private</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></form></div>
+<div class="tsd-theme-toggle">
+<h4 class="uppercase">Theme</h4><select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
+<nav class="tsd-navigation primary">
+<details class="tsd-index-accordion" open><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg> Modules</h3></summary>
+<div class="tsd-accordion-details">
+<ul>
+<li class="current"><a href="../modules.html">@vivliostyle/core</a>
+<ul>
+<li class="tsd-kind-module"><a href="../modules/adaptive_viewer.html">adaptive-<wbr/>viewer</a></li>
+<li class="tsd-kind-module"><a href="../modules/asserts.html">asserts</a></li>
+<li class="current tsd-kind-module"><a href="../modules/assets.html">assets</a></li>
+<li class="tsd-kind-module"><a href="../modules/base.html">base</a></li>
+<li class="tsd-kind-module"><a href="../modules/break.html">break</a></li>
+<li class="tsd-kind-module"><a href="../modules/break_position.html">break-<wbr/>position</a></li>
+<li class="tsd-kind-module"><a href="../modules/cfi.html">cfi</a></li>
+<li class="tsd-kind-module"><a href="../modules/columns.html">columns</a></li>
+<li class="tsd-kind-module"><a href="../modules/constants.html">constants</a></li>
+<li class="tsd-kind-module"><a href="../modules/core_viewer.html">core-<wbr/>viewer</a></li>
+<li class="tsd-kind-module"><a href="../modules/counters.html">counters</a></li>
+<li class="tsd-kind-module"><a href="../modules/css.html">css</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_cascade.html">css-<wbr/>cascade</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_logical_util.html">css-<wbr/>logical-<wbr/>util</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_page.html">css-<wbr/>page</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_parser.html">css-<wbr/>parser</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_prop.html">css-<wbr/>prop</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_styler.html">css-<wbr/>styler</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_tokenizer.html">css-<wbr/>tokenizer</a></li>
+<li class="tsd-kind-module"><a href="../modules/css_validator.html">css-<wbr/>validator</a></li>
+<li class="tsd-kind-module"><a href="../modules/diff.html">diff</a></li>
+<li class="tsd-kind-module"><a href="../modules/display.html">display</a></li>
+<li class="tsd-kind-module"><a href="../modules/epub.html">epub</a></li>
+<li class="tsd-kind-module"><a href="../modules/exprs.html">exprs</a></li>
+<li class="tsd-kind-module"><a href="../modules/font.html">font</a></li>
+<li class="tsd-kind-module"><a href="../modules/footnotes.html">footnotes</a></li>
+<li class="tsd-kind-module"><a href="../modules/geometry_util.html">geometry-<wbr/>util</a></li>
+<li class="tsd-kind-module"><a href="../modules/layout.html">layout</a></li>
+<li class="tsd-kind-module"><a href="../modules/layout_helper.html">layout-<wbr/>helper</a></li>
+<li class="tsd-kind-module"><a href="../modules/layout_processor.html">layout-<wbr/>processor</a></li>
+<li class="tsd-kind-module"><a href="../modules/layout_retryers.html">layout-<wbr/>retryers</a></li>
+<li class="tsd-kind-module"><a href="../modules/layout_util.html">layout-<wbr/>util</a></li>
+<li class="tsd-kind-module"><a href="../modules/logging.html">logging</a></li>
+<li class="tsd-kind-module"><a href="../modules/matchers.html">matchers</a></li>
+<li class="tsd-kind-module"><a href="../modules/math_util.html">math-<wbr/>util</a></li>
+<li class="tsd-kind-module"><a href="../modules/net.html">net</a></li>
+<li class="tsd-kind-module"><a href="../modules/ops.html">ops</a></li>
+<li class="tsd-kind-module"><a href="../modules/page_floats.html">page-<wbr/>floats</a></li>
+<li class="tsd-kind-module"><a href="../modules/page_master.html">page-<wbr/>master</a></li>
+<li class="tsd-kind-module"><a href="../modules/plugin.html">plugin</a></li>
+<li class="tsd-kind-module"><a href="../modules/print.html">print</a></li>
+<li class="tsd-kind-module"><a href="../modules/profile.html">profile</a></li>
+<li class="tsd-kind-module"><a href="../modules/pseudo_element.html">pseudo-<wbr/>element</a></li>
+<li class="tsd-kind-module"><a href="../modules/repetitive_element.html">repetitive-<wbr/>element</a></li>
+<li class="tsd-kind-module"><a href="../modules/scripts.html">scripts</a></li>
+<li class="tsd-kind-module"><a href="../modules/sha1.html">sha1</a></li>
+<li class="tsd-kind-module"><a href="../modules/shared.html">shared</a></li>
+<li class="tsd-kind-module"><a href="../modules/sizing.html">sizing</a></li>
+<li class="tsd-kind-module"><a href="../modules/table.html">table</a></li>
+<li class="tsd-kind-module"><a href="../modules/task.html">task</a></li>
+<li class="tsd-kind-module"><a href="../modules/task_util.html">task-<wbr/>util</a></li>
+<li class="tsd-kind-module"><a href="../modules/text_polyfill.html">text-<wbr/>polyfill</a></li>
+<li class="tsd-kind-module"><a href="../modules/toc.html">toc</a></li>
+<li class="tsd-kind-module"><a href="../modules/types.html">types</a>
+<ul>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.CssCascade.html">Css<wbr/>Cascade</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.CssStyler.html">Css<wbr/>Styler</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.Layout.html">Layout</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.LayoutProcessor.html">Layout<wbr/>Processor</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.Net.html">Net</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.PageFloats.html">Page<wbr/>Floats</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.PseudoElement.html">Pseudo<wbr/>Element</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.RepetitiveElement.html">Repetitive<wbr/>Element</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.Selectors.html">Selectors</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.Table.html">Table</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.Vtree.html">Vtree</a></li>
+<li class="tsd-kind-namespace tsd-parent-kind-module"><a href="../modules/types.XmlDoc.html">Xml<wbr/>Doc</a></li></ul></li>
+<li class="tsd-kind-module"><a href="../modules/urls.html">urls</a></li>
+<li class="tsd-kind-module"><a href="../modules/vgen.html">vgen</a></li>
+<li class="tsd-kind-module"><a href="../modules/viewer_app.html">viewer-<wbr/>app</a></li>
+<li class="tsd-kind-module"><a href="../modules/vtree.html">vtree</a></li>
+<li class="tsd-kind-module"><a href="../modules/xml_doc.html">xml-<wbr/>doc</a></li></ul></li></ul></div></details></nav>
+<nav class="tsd-navigation secondary menu-sticky">
+<ul>
+<li class="tsd-kind-variable tsd-parent-kind-module"><a href="assets.UserAgentBaseCss.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-variable)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-32-path"></rect><path d="M11.106 16L8.85 7.24H9.966L11.454 13.192C11.558 13.608 11.646 13.996 11.718 14.356C11.79 14.708 11.842 14.976 11.874 15.16C11.906 14.976 11.954 14.708 12.018 14.356C12.09 13.996 12.178 13.608 12.282 13.192L13.758 7.24H14.85L12.582 16H11.106Z" fill="var(--color-text)" id="icon-32-text"></path></svg>User<wbr/>Agent<wbr/>Base<wbr/>Css</a></li>
+<li class="tsd-kind-variable tsd-parent-kind-module"><a href="assets.UserAgentPageCss.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-32-path"></use><use href="#icon-32-text"></use></svg>User<wbr/>Agent<wbr/>Page<wbr/>Css</a></li>
+<li class="current tsd-kind-variable tsd-parent-kind-module"><a href="assets.UserAgentTocCss.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-32-path"></use><use href="#icon-32-text"></use></svg>User<wbr/>Agent<wbr/>Toc<wbr/>Css</a></li>
+<li class="tsd-kind-variable tsd-parent-kind-module"><a href="assets.UserAgentXml.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-32-path"></use><use href="#icon-32-text"></use></svg>User<wbr/>Agent<wbr/>Xml</a></li>
+<li class="tsd-kind-variable tsd-parent-kind-module"><a href="assets.ValidationTxt.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-32-path"></use><use href="#icon-32-text"></use></svg>Validation<wbr/>Txt</a></li>
+<li class="tsd-kind-variable tsd-parent-kind-module"><a href="assets.VivliostylePolyfillCss.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-32-path"></use><use href="#icon-32-text"></use></svg>Vivliostyle<wbr/>Polyfill<wbr/>Css</a></li>
+<li class="tsd-kind-variable tsd-parent-kind-module"><a href="assets.VivliostyleViewportCss.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-32-path"></use><use href="#icon-32-text"></use></svg>Vivliostyle<wbr/>Viewport<wbr/>Css</a></li>
+<li class="tsd-kind-variable tsd-parent-kind-module"><a href="assets.VivliostyleViewportScreenCss.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-32-path"></use><use href="#icon-32-text"></use></svg>Vivliostyle<wbr/>Viewport<wbr/>Screen<wbr/>Css</a></li></ul></nav></div></div>
+<div class="container tsd-generator">
+<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div>
+<div class="overlay"></div><script src="../assets/main.js"></script></body></html>
