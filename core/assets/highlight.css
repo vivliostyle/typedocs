@@ -33,4 +33,4 @@
 
 .hl-0 { color: var(--hl-0); }
 .hl-1 { color: var(--hl-1); }
-pre, code { background: var(--code-background); }
+pre, code, math[display='block'] { background: var(--code-background); }
